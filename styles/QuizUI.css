@@ -1,15 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 .body {
-  background-image: linear-gradient(#BCC5CE , #1f71d5);
+    background-image: linear-gradient(#BCC5CE , #939FAE);
 
-  /* background-color: #7cc6fe; */
+    /* background-color: #7cc6fe; */
 display: flex;
-flex-direction: column;
-gap: 50px;
 align-items: center;
 justify-content: center;
 font-family: "Poppins", sans-serif;
@@ -39,8 +33,8 @@ color: white;
 
 }
 .question-section{
-width: 54%;
-min-height:10px;
+ width: 54%;
+  min-height:10px;
 height: fit-content;
 /* background-color: aqua; */
 position: relative;
@@ -53,24 +47,26 @@ width: 45%;
 height: 30vh;
 height: fit-content;
 /* background-color: aqua; */
-width: 500px;
+  width: 500px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
 .question-show-content{
-  /* background: aqua; */
+    /* background: aqua; */
 height: 11ch;
 width: 262px;
 font-size: 19px;
 font-weight: 700;
 
 }
-.button_option{
+.button-option{
 margin-bottom: 10px;
+
 font-size: 16px;
 color: #ffffff;
-/* background-color: #252d4a; */
+
+background-color: #252d4a;
 border-radius: 15px;
 display: flex;
 padding: 5px;
